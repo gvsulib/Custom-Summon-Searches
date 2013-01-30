@@ -1,1 +1,75 @@
-My Github Page
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Custom-summon-searches by gvsulib</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Custom-summon-searches</h1>
+        <p>A tool to easily created scoped searches for Serial Solutions' Summon discovery platform.</p>
+
+        <p class="view"><a href="https://github.com/gvsulib/Custom-Summon-Searches">View the Project on GitHub <small>gvsulib/Custom-Summon-Searches</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/gvsulib/Custom-Summon-Searches/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/gvsulib/Custom-Summon-Searches/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/gvsulib/Custom-Summon-Searches">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>Create Custom Summon Searches</h1>
+
+<hr><p>This tool was developed by Matthew Reidsma to make creating scoped searches in Summon easier. We hope you find it useful.</p>
+
+<p>On February 15, 2012, Serials Solutions released their own Scoped Search creator. However, you need to be able to add Javascript to your website to use their search boxes. Some sites, including many CMSs and LMSs, strip Javascript. This tool lets you build scoped searches using good old HTML. I've updated it to work with discipline searches. </p>
+
+<h2>INSTALLATION</h2>
+
+<p>You will need to edit one line of the file "index.html" to make this tool work with your installation of Summon.</p>
+
+<p>Open index.html in a text editor (NOT Microsoft Word! Use Notepad if you have nothing else). On line number #280, replace the string "YOURINSTITUTION" with the institutional prefix from your Summon URL. For instance, Grand Valley State University's Summon prefix is "gvsu." So we'd change line #280 from:</p>
+
+<p>&lt;form method="GET" action="<a href="http://YOURINSTITUTION.summon.serialssolutions.com/search">http://YOURINSTITUTION.summon.serialssolutions.com/search</a>"&gt;<br></p>
+
+<p>to:</p>
+
+<p>&lt;form method="GET" action="<a href="http://gvsu.summon.serialssolutions.com/search">http://gvsu.summon.serialssolutions.com/search</a>"&gt;<br></p>
+
+<p>Now, copy the files to your computer or a Web server and open the "index.html" file. As you select facets for your search, the HTML code at the bottom will be updated. When you have completed selecting facets for your search, copy the HTML code and paste it into an Web page to create a custom, scoped Summon search.</p>
+
+<p>More questions? Feel free to contact Matthew Reidsma on Twitter at <a href="http://twitter.com/mreidsma">@mreidsma</a> or via email at <a href="mailto:reidsmam@gvsu.edu"></a><a href="mailto:reidsmam@gvsu.edu">reidsmam@gvsu.edu</a>.</p>
+
+<h2>DEMO</h2>
+
+<p>You can view a live version of this tool at <a href="http://gvsulib.com/labs/custom_summon">http://gvsulib.com/labs/custom_summon</a>.</p>
+
+<h2>COPYRIGHT</h2>
+
+<p>This tool is copyright 2011 Grand Valley State University Libraries. </p>
+
+<p>This tool is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.</p>
+
+<p>This tool is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</p>
+
+<p>You should have received a copy of the GNU General Public License along with this tool. If not, see <a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</a>.</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/gvsulib">gvsulib</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
